@@ -2,6 +2,7 @@ import Vue from 'vue'
 
 const components = {
   HomeCard: () => import('../../components/HomeCard.vue' /* webpackChunkName: "components/home-card" */).then(c => c.default || c),
+  HomeRow: () => import('../../components/HomeRow.vue' /* webpackChunkName: "components/home-row" */).then(c => c.default || c),
   ShortText: () => import('../../components/ShortText.vue' /* webpackChunkName: "components/short-text" */).then(c => c.default || c)
 }
 

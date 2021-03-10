@@ -1,4 +1,5 @@
-{"name": "mastering-nuxt",
+{
+  "name": "mastering-nuxt",
   "dependencies": {
     "nuxt": "^2.15.2"
   },
@@ -6,5 +7,10 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
   }
 }

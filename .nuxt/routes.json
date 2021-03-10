@@ -1,14 +1,23 @@
 [
   {
+    "name": "search",
+    "path": "/search",
+    "component": "/var/www/html/NuxtBnB/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_49b4545c"
+  },
+  {
     "name": "home-id",
     "path": "/home/:id?",
     "component": "/var/www/html/NuxtBnB/pages/home/_id.vue",
-    "chunkName": "pages/home/_id"
+    "chunkName": "pages/home/_id",
+    "_name": "_7f074f34"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/html/NuxtBnB/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_3313d698"
   }
 ]
