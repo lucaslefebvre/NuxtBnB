@@ -20,7 +20,7 @@ export default {
     buildModules: ['@nuxtjs/tailwindcss'],
     css: ['~/assets/sass/app.scss'],
     build: {
-        extractCss: true,
+        extractCSS: true,
         loaders: {
             limit: 0,
         }
